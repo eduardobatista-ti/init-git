@@ -21,7 +21,7 @@ branch_exists() {
 }
 
 
-echo "############ rep: eduardobatista-ti/init-git ############"; echo "Scrip de atulização de repositórios e criação de Branch."; progress_bar;
+echo "############ rep: eduardobatista-ti/init-git ############"; echo "Script de atulização de repositórios e criação de Branch."; progress_bar;
 
 PROJECT_DIR=$(pwd)
 read -r -p "Você vai sair da branch atual e pode perder alterações não salvas. Deseja sair da branch atual? (s/n): " leave_branch
